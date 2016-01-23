@@ -18,13 +18,13 @@ In order to save time, only check up to 10 baidu pages which up to 10 urls on ea
 
 For example, in my Kali2 linux.
 
-{% codeblock lang:bash %}
+```bash
 root@kali:/usr/share/recon-ng/modules/recon/domains-hosts# pwd
 /usr/share/recon-ng/modules/recon/domains-hosts
 root@kali:/usr/share/recon-ng/modules/recon/domains-hosts# ls
 baidu_site.py      bing_domain_api.py  brute_hosts.py  google_site_api.py  netcraft.py         ssl_san.py    yahoo_domain.py
 baidu_site.py_bak  bing_domain_web.py  builtwith.py    google_site_web.py  shodan_hostname.py  vpnhunter.py
 root@kali:/usr/share/recon-ng/modules/recon/domains-hosts# 
-{% endcodeblock %}
+```
 
 
