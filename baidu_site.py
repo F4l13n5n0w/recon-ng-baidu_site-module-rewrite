@@ -64,8 +64,7 @@ class Module(BaseModule):
                         self.add_hosts(host)
                 if not new:
                     # exit if all subdomains have been found
-                    #if not u'>\u4e0b\u4e00\u9875&gt;<' in content:
-                    if page > 10:
+                    if u'>\u4e0b\u4e00\u9875&gt;<' not in content or page > 10:
                         break
                     else:
                         page += 1
